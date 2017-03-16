@@ -1,0 +1,65 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+                <random>
+					<li>Lemme Think</li>
+					
+				</random>
+        </template>
+    </category>
+	
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            Namaste
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+             I am Kaustubh's Assistant
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO CREATED YOU</pattern>
+        <template>
+        I am Created By Kaustubh Saxena. Love To Him.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE ARE YOU</pattern>
+        <template>
+		
+            I am in Yamunanagar. In This Sweet Notebook - Dell Vostro 3546, 8GB RAM, nVIDIA 820M Graphic Card, CPU Speed 2.17 GHZ.
+			
+        </template>
+    </category>
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I am Fine. Thank You.
+        </template>
+    </category>
+	
+
+</aiml>

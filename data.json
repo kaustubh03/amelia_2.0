@@ -1,0 +1,283 @@
+{
+    "response_code": 200,
+    "train": {
+        "classes": [
+            {
+                "available": "N",
+                "class-code": "2S"
+            },
+            {
+                "available": "Y",
+                "class-code": "3A"
+            },
+            {
+                "available": "N",
+                "class-code": "CC"
+            },
+            {
+                "available": "N",
+                "class-code": "FC"
+            },
+            {
+                "available": "N",
+                "class-code": "1A"
+            },
+            {
+                "available": "Y",
+                "class-code": "SL"
+            },
+            {
+                "available": "N",
+                "class-code": "3E"
+            },
+            {
+                "available": "Y",
+                "class-code": "2A"
+            }
+        ],
+        "days": [
+            {
+                "runs": "Y",
+                "day-code": "SUN"
+            },
+            {
+                "runs": "Y",
+                "day-code": "MON"
+            },
+            {
+                "runs": "Y",
+                "day-code": "TUE"
+            },
+            {
+                "runs": "Y",
+                "day-code": "WED"
+            },
+            {
+                "runs": "Y",
+                "day-code": "THU"
+            },
+            {
+                "runs": "Y",
+                "day-code": "FRI"
+            },
+            {
+                "runs": "Y",
+                "day-code": "SAT"
+            }
+        ],
+        "number": "12232",
+        "name": "CDG LKO EXPRESS"
+    },
+    "route": [
+        {
+            "lat": 30.6961407,
+            "fullname": "CHANDIGARH",
+            "no": 1,
+            "state": "Chandigarh 160002",
+            "day": 1,
+            "distance": 0,
+            "schdep": "21:10",
+            "route": 1,
+            "code": "CDG",
+            "scharr": "Source",
+            "halt": 0,
+            "lng": 76.7975965
+        },
+        {
+            "lat": 30.3384348,
+            "fullname": "AMBALA CANT JN",
+            "no": 2,
+            "state": "Haryana 133001",
+            "day": 1,
+            "distance": 68,
+            "schdep": "22:00",
+            "route": 1,
+            "code": "UMB",
+            "scharr": "21:50",
+            "halt": 10,
+            "lng": 76.8270466
+        },
+        {
+            "lat": 30.1680858,
+            "fullname": "JAGADHRI WSHOP",
+            "no": 3,
+            "state": "Haryana",
+            "day": 1,
+            "distance": 114,
+            "schdep": "22:36",
+            "route": 1,
+            "code": "JUDW",
+            "scharr": "22:34",
+            "halt": 2,
+            "lng": 77.29692039999999
+        },
+        {
+            "lat": 30.1185351,
+            "fullname": "YAMUNANAGAR JAGADHRI",
+            "no": 4,
+            "state": "Haryana 135001",
+            "day": 1,
+            "distance": 119,
+            "schdep": "22:45",
+            "route": 1,
+            "code": "YJUD",
+            "scharr": "22:43",
+            "halt": 2,
+            "lng": 77.28599969999999
+        },
+        {
+            "lat": 29.9615391,
+            "fullname": "SAHARANPUR",
+            "no": 5,
+            "state": "Uttar Pradesh 247001",
+            "day": 1,
+            "distance": 149,
+            "schdep": "23:40",
+            "route": 1,
+            "code": "SRE",
+            "scharr": "23:30",
+            "halt": 10,
+            "lng": 77.54044490000001
+        },
+        {
+            "lat": 29.8520617,
+            "fullname": "ROORKEE",
+            "no": 6,
+            "state": "Uttarakhand 247667",
+            "day": 2,
+            "distance": 184,
+            "schdep": "00:15",
+            "route": 1,
+            "code": "RK",
+            "scharr": "00:13",
+            "halt": 2,
+            "lng": 77.8751367
+        },
+        {
+            "lat": 29.7534019,
+            "fullname": "LAKSAR JN",
+            "no": 7,
+            "state": "Uttarakhand 247663",
+            "day": 2,
+            "distance": 202,
+            "schdep": "00:37",
+            "route": 1,
+            "code": "LRJ",
+            "scharr": "00:35",
+            "halt": 2,
+            "lng": 78.01866299999999
+        },
+        {
+            "lat": 29.603456,
+            "fullname": "NAJIBABAD JN",
+            "no": 8,
+            "state": "Uttar Pradesh 246763",
+            "day": 2,
+            "distance": 244,
+            "schdep": "01:14",
+            "route": 1,
+            "code": "NBD",
+            "scharr": "01:12",
+            "halt": 2,
+            "lng": 78.33638499999999
+        },
+        {
+            "lat": 29.4377072,
+            "fullname": "NAGINA",
+            "no": 9,
+            "state": "Uttar Pradesh 246762",
+            "day": 2,
+            "distance": 266,
+            "schdep": "01:33",
+            "route": 1,
+            "code": "NGG",
+            "scharr": "01:31",
+            "halt": 2,
+            "lng": 78.42412159999999
+        },
+        {
+            "lat": 29.30592769999999,
+            "fullname": "DHAMPUR",
+            "no": 10,
+            "state": "Uttar Pradesh 246761",
+            "day": 2,
+            "distance": 282,
+            "schdep": "01:52",
+            "route": 1,
+            "code": "DPR",
+            "scharr": "01:50",
+            "halt": 2,
+            "lng": 78.5020086
+        },
+        {
+            "lat": 28.832151,
+            "fullname": "MORADABAD",
+            "no": 11,
+            "state": "Uttar Pradesh 244001",
+            "day": 2,
+            "distance": 342,
+            "schdep": "03:15",
+            "route": 1,
+            "code": "MB",
+            "scharr": "03:05",
+            "halt": 10,
+            "lng": 78.765857
+        },
+        {
+            "lat": 28.3371343,
+            "fullname": "BAREILLY",
+            "no": 12,
+            "state": "Uttar Pradesh 243001",
+            "day": 2,
+            "distance": 432,
+            "schdep": "04:50",
+            "route": 1,
+            "code": "BE",
+            "scharr": "04:45",
+            "halt": 5,
+            "lng": 79.4108244
+        },
+        {
+            "lat": 27.8940743,
+            "fullname": "SHAHJEHANPUR",
+            "no": 13,
+            "state": "Uttar Pradesh 242001",
+            "day": 2,
+            "distance": 503,
+            "schdep": "06:02",
+            "route": 1,
+            "code": "SPN",
+            "scharr": "05:57",
+            "halt": 5,
+            "lng": 79.90368819999999
+        },
+        {
+            "lat": 27.398963,
+            "fullname": "HARDOI",
+            "no": 14,
+            "state": "Uttar Pradesh 241001",
+            "day": 2,
+            "distance": 566,
+            "schdep": "06:57",
+            "route": 1,
+            "code": "HRI",
+            "scharr": "06:55",
+            "halt": 2,
+            "lng": 80.14792
+        },
+        {
+            "lat": 26.8311093,
+            "fullname": "LUCKNOW",
+            "no": 15,
+            "state": "Uttar Pradesh 226001",
+            "day": 2,
+            "distance": 667,
+            "schdep": "Destination",
+            "route": 1,
+            "code": "LKO",
+            "scharr": "08:50",
+            "halt": 0,
+            "lng": 80.9243976
+        }
+    ]
+}

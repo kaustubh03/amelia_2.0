@@ -1,0 +1,80 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- std-startup.xml -->
+
+    <!-- Category is an atomic AIML unit -->
+    <category>
+        <!-- Pattern to match in user input -->
+        <!-- If user enters "LOAD AIML B" -->
+        <pattern>LOAD AIML B</pattern>
+
+        <!-- Template is the response to the pattern -->
+        <!-- This learn an aiml file -->
+        <template>
+            <learn>basic_chat.aiml</learn>
+            <learn>ai.aiml</learn>
+            <learn>alice.aiml</learn>
+            <learn>astrology.aiml</learn>
+            <learn>atomic.aiml</learn>
+            <learn>basic_chat.aiml</learn>
+            <learn>biography.aiml</learn>
+            <learn>bot.aiml</learn>
+            <learn>bot_profile.aiml</learn>
+            <learn>client.aiml</learn>
+            <learn>client_profile.aiml</learn>
+            <learn>computers.aiml</learn>
+            <learn>continuation.aiml</learn>
+            <learn>date.aiml</learn>
+            <learn>default.aiml</learn>
+            <learn>drugs.aiml</learn>
+            <learn>emotion.aiml</learn>
+            <learn>food.aiml</learn>
+            <learn>history.aiml</learn>
+            <learn>humour.aiml</learn>
+            <learn>imponderables.aiml</learn>
+            <learn>inquiry.aiml</learn>
+            <learn>interjection.aiml</learn>
+            <learn>iu.aiml</learn>
+            <learn>knowledge.aiml</learn>
+            <learn>literature.aiml</learn>
+            <learn>loebner10.aiml</learn>
+            <learn>money.aiml</learn>
+            <learn>mp0.aiml</learn>
+            <learn>mp1.aiml</learn>
+            <learn>mp2.aiml</learn>
+            <learn>mp3.aiml</learn>
+            <learn>mp4.aiml</learn>
+            <learn>mp5.aiml</learn>
+            <learn>mp6.aiml</learn>
+            <learn>numbers.aiml</learn>
+            <learn>personality.aiml</learn>
+            <learn>phone.aiml</learn>
+            <learn>primitive-math.aiml</learn>
+            <learn>psycology.aiml</learn>
+            <learn>psycology2.aiml</learn
+            <learn>reductions.name.aiml</learn>
+            <learn>reduction0.safe.aiml</learn>
+            <learn>reduction1.safe.aiml</learn>
+            <learn>reduction2.safe.aiml</learn>
+            <learn>reduction3.safe.aiml</learn>
+            <learn>reduction4.safe.aiml</learn>
+            <learn>reductions-update.aiml</learn>
+            <learn>religion.aiml</learn>
+            <learn>salutations.aiml</learn>
+            <learn>science.aiml</learn>
+            <learn>sex.aiml</learn>
+            <learn>sports.aiml</learn>
+            <learn>stack.aiml</learn>
+            <learn>stories.aiml</learn>
+            <learn>that.aiml</learn>
+            <learn>update_mccormick.aiml</learn>
+            <learn>update1.aiml</learn>
+
+
+
+
+            <!-- You can add more aiml files here -->
+            <!--<learn>more_aiml.aiml</learn>-->
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,14 @@
+pic = QtGui.QLabel(w)
+        pic.alignment(center)
+        #pic.setGeometry(400,20,40,400)
+        # use full ABSOLUTE path to the image, not relative
+        pic.setPixmap(QtGui.QPixmap(os.getcwd() + "/robo.png"))
+
+
+#w = QtGui.QWidget()
+        #b = QtGui.QLabel(w)
+        #b.setText(kernel.respond(message))
+        #w.setGeometry(512,512, 512,512)
+        #b.move(50, 70)
+        #w.show()
+       #w.close()
