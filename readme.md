@@ -1,0 +1,4 @@
+Amelia AI is a Stateless Bot which enhances and automates the human functions with more speed and accuracy. It will be programmed in little over 91000 categories to provide an intelligent interface to interact to users. Amelia is a name with Latin origins. Amelia originally comes from the name Amalia, which was derived from the Germanic name Amala. The root element Amal means "work."
+
+The Amelia Bot Works on Artificial Intelligence Modeling Language (AIML) Running on top of Python Interpreter with XML as a Bridge and numerous Python Libraries to enhance the functioning of the Bot. The Bot currently helps to chat people, web scraping, and get information from Wikipedia and also Google for enhanced results. Amelia is also a solution to entertainment of the user it grabs and shows information of movies, songs and even lyrics of the songs.
+
