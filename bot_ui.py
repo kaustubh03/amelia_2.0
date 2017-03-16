@@ -30,9 +30,9 @@ import win32api
 ########################## Initializers ##############################
 wiki = WikiApi()
 engine = pyttsx.init()
-owm = pyowm.OWM('882a2002afef96de70c83c3e5c2dc9ae')
-client = TwilioRestClient('AC604129f034e7162b4017a3eb37cb39aa','bc5f3197c08157164b4bda1a71913e8b')
-client_wolfram = wolframalpha.Client('LVHL84-HKV36GTR2J')
+owm = pyowm.OWM('Enter API Key') ### Weather API key PYOWM
+client = TwilioRestClient('Enter API Key','Enter User Key') ### Twilio Key
+client_wolfram = wolframalpha.Client('Enter API Key - Wolfram')
 rand=(randint(0,90000))
 gs = goslate.Goslate()
 
@@ -296,7 +296,7 @@ while True:
         if choice == "0":
             print "********** Train Information **********"
             train = raw_input("Enter Train Number or Name : ")
-            url = "http://api.railwayapi.com/route/train/{0}/apikey/25psa0aw/".format(train)
+            url = "http://api.railwayapi.com/route/train/{0}/apikey/Enter Railway API Key/".format(train)
             response = urllib2.urlopen(url)
             data = json.loads(response.read())
 
@@ -316,7 +316,7 @@ while True:
             print "********** Live Train Status **********"
             train = raw_input("Enter Train Number : ")
             doj = raw_input("Enter Date of Journey in YYYYMMDD Format : ")
-            url = "http://api.railwayapi.com/live/train/{0}/doj/{1}/apikey/25psa0aw/".format(train, doj)
+            url = "http://api.railwayapi.com/live/train/{0}/doj/{1}/apikey/Enter Railway API Key/".format(train, doj)
             response = urllib2.urlopen(url)
             data = json.loads(response.read())
 
@@ -325,7 +325,7 @@ while True:
         elif choice == "2":
             print "********** Train Route **********"
             train = raw_input("Enter Train Number : ")
-            url = "http://api.railwayapi.com/route/train/{0}/apikey/25psa0aw/".format(train)
+            url = "http://api.railwayapi.com/route/train/{0}/apikey/Enter Railway API Key/".format(train)
             response = urllib2.urlopen(url)
             data = json.loads(response.read())
             print "Train Name : {0}".format(data['train']['name'])
@@ -349,7 +349,7 @@ while True:
             quota = raw_input("Enter Quota Code (To Know - http://www.indianrail.gov.in/quota_Code.html) : ")
             doj = raw_input("Enter Date Of Journey in DD-MM-YYYY format : ")
 
-            url = "http://api.railwayapi.com/fare/train/{0}/source/{1}/dest/{2}/age/{3}/quota/{4}/doj/{5}/apikey/25psa0aw/".format(
+            url = "http://api.railwayapi.com/fare/train/{0}/source/{1}/dest/{2}/age/{3}/quota/{4}/doj/{5}/apikey/Enter Railway API Key/".format(
                 train, source, dest, age, quota, doj)
             response = urllib2.urlopen(url)
             data = json.loads(response.read())
@@ -365,7 +365,7 @@ while True:
             print "********** Train Arrivals at Station **********"
             stat_code = raw_input("Enter Station Code : ")
             hours = raw_input("Hours to search within : ")
-            url = "http://api.railwayapi.com/arrivals/station/{0}/hours/{1}/apikey/25psa0aw/".format(stat_code, hours)
+            url = "http://api.railwayapi.com/arrivals/station/{0}/hours/{1}/apikey/Enter Railway API Key/".format(stat_code, hours)
             response = urllib2.urlopen(url)
             data = json.loads(response.read())
             for train_stat in data['train']:
@@ -383,7 +383,7 @@ while True:
         elif choice == "5":
             print "Cancelled Trains"
             cancel_date = raw_input("Enter Date In DD-MM-YYYY Format : ")
-            url = "http://api.railwayapi.com/cancelled/date/{0}/apikey/25psa0aw/".format(cancel_date)
+            url = "http://api.railwayapi.com/cancelled/date/{0}/apikey/Enter Railway API Key/".format(cancel_date)
             response = urllib2.urlopen(url)
             data = json.loads(response.read())
             for train_stat in data['trains']:
@@ -397,7 +397,7 @@ while True:
         elif choice == "6":
             print "********************** Station Name to Code **********************"
             station = raw_input("Enter Enter Station Name : ")
-            url = "http://api.railwayapi.com/name_to_code/station/{0}/apikey/25psa0aw/".format(station)
+            url = "http://api.railwayapi.com/name_to_code/station/{0}/apikey/Enter Railway API Key/".format(station)
             response = urllib2.urlopen(url)
             data = json.loads(response.read())
 
@@ -413,7 +413,7 @@ while True:
             print "*********************** Station Code to Name ************************"
 
             code = raw_input("Enter Station Code : ")
-            url = "http://api.railwayapi.com/code_to_name/code/{0}/apikey/25psa0aw/".format(code)
+            url = "http://api.railwayapi.com/code_to_name/code/{0}/apikey/Enter Railway API Key/".format(code)
             response = urllib2.urlopen(url)
             data = json.loads(response.read())
 
@@ -726,5 +726,3 @@ while True:
 ######################### Normal Response From AIML And if Not found WIKI and Google######################
     else:
         main_else()
-
-
